@@ -1,7 +1,7 @@
 <?php 
 
 //print_r($_POST);
-
+/*
 if(!$_POST){
 	header('Location: http://localhost/curso_php/formularios/');
 	
@@ -12,8 +12,31 @@ if(!$_POST){
 	$terminos = $_POST['terminos'];
 
 	echo 'Hola '.$nombre.' eres '.$sexo;
+*/
 
+//print_r($_GET);
 
+if(!$_GET){
+	header('Location: http://localhost/curso_php/formularios/');
+	
+}
 
+$nombre = $_GET['nombre'];
+
+	$sexo = $_GET['sexo'];
+	$year = $_GET['year'];
+	$terminos = $_GET['terminos'];
+
+	if($nombre){
+
+		echo htmlspecialchars($nombre);
+	}else{
+		echo 'El usuario no puso su nombre';
+	}
+
+	echo '<br>';
+	echo $sexo.'<br>';
+	echo $year.'<br>';
+	echo $terminos.'<br>';
 
  ?>
