@@ -9,7 +9,10 @@ if($conexion->connect_errno){
     //Puede ser inseguro
     //$sql = "INSERT INTO usuarios (id,nombre,edad) VALUES(null,'Luis',50)";
     //$conexion->query($sql);
-
-    
+    /*
+    if($conexion->affected_rows >= 1){
+        echo 'Filas agregadas: '.$conexion->affected_rows;
+    }
+    */
     
 }
