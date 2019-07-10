@@ -5,6 +5,7 @@
 	<meta class="viewport" content="width=device-width,user-scalable=no,
 	initial-scale=1.0,maximum-scale=1.0,minimum-scale:1.0">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
 	<title>Contenido</title>
 </head>
@@ -12,6 +13,7 @@
 	<div class="contenedor">
 		<h1 class="titulo">Contenido del sitio</h1>
 		<a href="cerrar.php">Cerrar sesión</a>
+		<hr class="border">
 		
 		<div class="contenido">
 			<article>
