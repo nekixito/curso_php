@@ -10,14 +10,14 @@
 </head>
 <body>
 	<header class="contenedor">
-		<h1 class="titulo">Foto: 1.jpg</h1>
+		<h1 class="titulo">Foto: <?php if(!empty($foto['titulo'])){ echo $foto['titulo']; } else { echo $foto['imagen']; } ?></h1>
 	</header>
 
 	<div class="contenedor">
 		<div class="foto">
-			<img src="imagenes/1.jpg" alt="">
+			<img src="fotos/<?php echo $foto['imagen']; ?>" alt="">
 			<p class="texto">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper felis ac dapibus consectetur. Duis porttitor libero et elit volutpat maximus. Aliquam feugiat, tortor a maximus dapibus, enim nibh faucibus sapien, sit amet dapibus libero risus ut risus. Sed ac mollis quam. Sed sodales neque vitae hendrerit rutrum. Curabitur risus sem, commodo et tellus sed, lacinia semper lectus. Pellentesque diam lorem, congue in aliquet id, dictum in felis. Phasellus tempor dignissim tristique. Donec nibh massa, luctus et odio eu, dignissim lacinia turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consectetur leo turpis, et molestie nisi mollis eget.
+				<?php echo $foto['texto']; ?>
 			</p>
 			<a href="index.php" class="regresar"><ii class="fa fa-long-arrow-left"></ii> Regresar</a>
 		</div>
