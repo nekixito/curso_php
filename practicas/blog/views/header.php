@@ -15,7 +15,7 @@
 		<div class="contenedor">
 			<div class="logo izquierda">
 				<p>
-					<a href="#">Mi primer blog</a>
+					<a href="<?php echo RUTA;?>">Mi primer blog</a>
 				</p>
 			</div>
 			<div class="derecha">
