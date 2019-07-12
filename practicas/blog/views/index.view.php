@@ -1,37 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<?php require 'header.php' ?>
 
-	<link rel="stylesheet" href="<?php echo RUTA; ?>/css/estilos.css">
-	<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<title>Blog</title>
-</head>
-<body>
-	<header>
-		<div class="contenedor">
-			<div class="logo izquierda">
-				<p>
-					<a href="#">Mi primer blog</a>
-				</p>
-			</div>
-			<div class="derecha">
-				<form name="busqueda" class="buscar" action="<?php echo RUTA;?>buscar.php" method="get">
-					<input type="text" name="busqueda" placeholder="Buscar"><button type="submit" class="icono fa fa-search"></button>
-				</form>
-				<nav class="menu">
-					<ul>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li></a></li>
-						<li><a href="#">Contacto<i class="icono fa fa-envelope"></i></a></li></a></li>
-					</ul>
-				</nav>
-			</div>
+	<div class="contenedor">
+		<div class="post">
+			<article>
+				<h2 class="titulo">Titulo del artículo</h2>
+				<p class="fecha">12 de Julio del 2019</p>
+				<div class="thumb">
+					<a href="#">
+						<img src="<?php echo RUTA; ?>/imagenes/1.png" alt="">
+					</a>
+				</div>
+				<p class="extracto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, at.</p>
+				<a href="#" class="continuar">Continuar Leyendo</a>
+				
+			</article>
 		</div>
-	</header>
+
+		<div class="post">
+			<article>
+				<h2 class="titulo">Titulo del artículo</h2>
+				<p class="fecha">12 de Julio del 2019</p>
+				<div class="thumb">
+					<a href="#">
+						<img src="<?php echo RUTA; ?>/imagenes/1.png" alt="">
+					</a>
+				</div>
+				<p class="extracto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, at.</p>
+				<a href="#" class="continuar">Continuar Leyendo</a>
+				
+			</article>
+		</div>
+
+		<?php require 'paginacion.php' ?>
+	</div>
 	
-</body>
-</html>
+	<?php require 'footer.php' ?>
