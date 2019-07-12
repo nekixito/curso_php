@@ -10,7 +10,7 @@
 </head>
 <body>
 	<header class="contenedor">
-		<h1 class="titulo">Mi increible Galería en PHP y MySQL</h1>
+		<h1 class="titulo">Mi Galería en PHP y MySQL</h1>
 	</header>
 
 	<section class="fotos">
