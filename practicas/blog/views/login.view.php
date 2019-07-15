@@ -1,4 +1,4 @@
-<?php require 'header.php' ?>
+<?php require 'header.php'; ?>
 
 	<div class="contenedor">
 		<div class="post">
@@ -15,4 +15,4 @@
 		</div>
 	</div>
 
-<?php require 'footer.php' ?>
+<?php require 'footer.php'; ?>
