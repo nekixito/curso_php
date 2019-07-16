@@ -1,5 +1,31 @@
-var nombre ='Carlos';
-var edad = 23;
-var pais = 'México';
+/*
+var carlos = {
+    "nombre":"Carlos Arturo",
+    "edad":23,
+    "pais":"México"
+}
 
-console.log(nombre);
+var alejandro = {
+    "nombre":"Alejandro",
+    "edad":30,
+    "pais":"España"
+}
+*/
+//Ejemplo arreglo
+var arreglo = ["Hugo","Paco"];
+
+//Ejemplo de json
+var amigos = [
+    {
+     "nombre":"Alejandro",
+     "edad":30,
+     "pais":"España"
+    },
+    {
+     "nombre":"Manuel",
+     "edad":24,
+     "pais":"Colombia"
+    }
+];
+
+console.log(amigos[0].pais);
