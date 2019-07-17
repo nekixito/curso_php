@@ -3,7 +3,8 @@ var loader = document.getElementById('loader');
 
 btn.addEventListener('click',function(){
     var peticion = new XMLHttpRequest();
-    peticion.open('GET','http://www.json-generator.com/api/json/get/cgoCRwDMvC?indent=2');
+    //peticion.open('GET','http://www.json-generator.com/api/json/get/cgoCRwDMvC?indent=2');
+    peticion.open('GET','php/usuarios.php');
     
     loader.classList.add('active');
 
